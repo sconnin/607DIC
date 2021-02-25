@@ -9,7 +9,7 @@ Steps described to identify and correct these mistakes during the presentation (
 
 1. Load both data sets into QGIS as delimited text files (Layer>Add Layer>Text Delimited Layer), set the coordinate system to WGS84-EPSG4326. These will appear as individual "layers" on the map.
 
-2. Load the shorelines.shp shapefile (boundary for the 14 county area) into QGIS as a vector layer. Note that this file includes a number of extensions which should be included in your project folder. 
+2. Load the ANCA 14 Counties Shoreline Dissolved.shp shapefile (boundary for the 14 county area) into QGIS as a vector layer. Note that this file includes a number of extensions which should be included in your project folder. I've also included an additional shoreline shapefile. How is it different? What might happen if it is selected for Step 4?
 
 3. Not that a number of dirty_adk_data points lay outside the perimeter of the boundary. These data have coordinate/label errors.
 
